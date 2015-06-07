@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025315301B249700009F7BE3 /* BusinessLogicLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0253152F1B249700009F7BE3 /* BusinessLogicLayer.h */; };
+		025315321B249700009F7BE3 /* BusinessLogicLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 025315311B249700009F7BE3 /* BusinessLogicLayer.m */; };
+		025315381B249700009F7BE3 /* libBusinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0253152C1B249700009F7BE3 /* libBusinessLogicLayer.a */; };
+		025316071B24A015009F7BE3 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 025316061B24A015009F7BE3 /* libPersistenceLayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025315391B249700009F7BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025315241B249700009F7BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0253152B1B249700009F7BE3;
+			remoteInfo = BusinessLogicLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0253152A1B249700009F7BE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				025315301B249700009F7BE3 /* BusinessLogicLayer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0253152C1B249700009F7BE3 /* libBusinessLogicLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusinessLogicLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0253152F1B249700009F7BE3 /* BusinessLogicLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessLogicLayer.h; sourceTree = "<group>"; };
+		025315311B249700009F7BE3 /* BusinessLogicLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessLogicLayer.m; sourceTree = "<group>"; };
+		025315371B249700009F7BE3 /* BusinessLogicLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessLogicLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0253153D1B249700009F7BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025316061B24A015009F7BE3 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025315291B249700009F7BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025316071B24A015009F7BE3 /* libPersistenceLayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025315341B249700009F7BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025315381B249700009F7BE3 /* libBusinessLogicLayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025315231B249700009F7BE3 = {
+			isa = PBXGroup;
+			children = (
+				025316061B24A015009F7BE3 /* libPersistenceLayer.a */,
+				0253152E1B249700009F7BE3 /* BusinessLogicLayer */,
+				0253153B1B249700009F7BE3 /* BusinessLogicLayerTests */,
+				0253152D1B249700009F7BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0253152D1B249700009F7BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0253152C1B249700009F7BE3 /* libBusinessLogicLayer.a */,
+				025315371B249700009F7BE3 /* BusinessLogicLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0253152E1B249700009F7BE3 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0253152F1B249700009F7BE3 /* BusinessLogicLayer.h */,
+				025315311B249700009F7BE3 /* BusinessLogicLayer.m */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		0253153B1B249700009F7BE3 /* BusinessLogicLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0253153C1B249700009F7BE3 /* Supporting Files */,
+			);
+			path = BusinessLogicLayerTests;
+			sourceTree = "<group>";
+		};
+		0253153C1B249700009F7BE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0253153D1B249700009F7BE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0253152B1B249700009F7BE3 /* BusinessLogicLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025315401B249700009F7BE3 /* Build configuration list for PBXNativeTarget "BusinessLogicLayer" */;
+			buildPhases = (
+				025315281B249700009F7BE3 /* Sources */,
+				025315291B249700009F7BE3 /* Frameworks */,
+				0253152A1B249700009F7BE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessLogicLayer;
+			productName = BusinessLogicLayer;
+			productReference = 0253152C1B249700009F7BE3 /* libBusinessLogicLayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		025315361B249700009F7BE3 /* BusinessLogicLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025315431B249700009F7BE3 /* Build configuration list for PBXNativeTarget "BusinessLogicLayerTests" */;
+			buildPhases = (
+				025315331B249700009F7BE3 /* Sources */,
+				025315341B249700009F7BE3 /* Frameworks */,
+				025315351B249700009F7BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0253153A1B249700009F7BE3 /* PBXTargetDependency */,
+			);
+			name = BusinessLogicLayerTests;
+			productName = BusinessLogicLayerTests;
+			productReference = 025315371B249700009F7BE3 /* BusinessLogicLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025315241B249700009F7BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lavender_molistudy;
+				TargetAttributes = {
+					0253152B1B249700009F7BE3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					025315361B249700009F7BE3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 025315271B249700009F7BE3 /* Build configuration list for PBXProject "BusinessLogicLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 025315231B249700009F7BE3;
+			productRefGroup = 0253152D1B249700009F7BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0253152B1B249700009F7BE3 /* BusinessLogicLayer */,
+				025315361B249700009F7BE3 /* BusinessLogicLayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025315351B249700009F7BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025315281B249700009F7BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025315321B249700009F7BE3 /* BusinessLogicLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025315331B249700009F7BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0253153A1B249700009F7BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0253152B1B249700009F7BE3 /* BusinessLogicLayer */;
+			targetProxy = 025315391B249700009F7BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0253153E1B249700009F7BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0253153F1B249700009F7BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025315411B249700009F7BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lavender/Desktop/MoliStudy/PersistenceLayer/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../PersistenceLayer/**";
+			};
+			name = Debug;
+		};
+		025315421B249700009F7BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lavender/Desktop/MoliStudy/PersistenceLayer/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../PersistenceLayer/**";
+			};
+			name = Release;
+		};
+		025315441B249700009F7BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		025315451B249700009F7BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025315271B249700009F7BE3 /* Build configuration list for PBXProject "BusinessLogicLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0253153E1B249700009F7BE3 /* Debug */,
+				0253153F1B249700009F7BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025315401B249700009F7BE3 /* Build configuration list for PBXNativeTarget "BusinessLogicLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025315411B249700009F7BE3 /* Debug */,
+				025315421B249700009F7BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025315431B249700009F7BE3 /* Build configuration list for PBXNativeTarget "BusinessLogicLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025315441B249700009F7BE3 /* Debug */,
+				025315451B249700009F7BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025315241B249700009F7BE3 /* Project object */;
+}
