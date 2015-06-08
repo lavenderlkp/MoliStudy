@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "UserInfoViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];// 该窗口显示到最前端
+    
+    ViewController *centerVC = [[ViewController alloc] init];
+    UserInfoViewController *leftVC = [[UserInfoViewController alloc] init];
+    self.revealViewController = [[SWRevealViewController alloc] initWithRearViewController:leftVC frontViewController:centerVC];
+
+    self.revealViewController.rearViewRevealWidth = 4.0/5.0f * self.window.bounds.size.width;
+    self.window.rootViewController = self.revealViewController;
+    
     return YES;
 }
 

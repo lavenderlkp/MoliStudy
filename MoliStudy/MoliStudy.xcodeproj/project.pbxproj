@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022CEED21B252A9B00F06F4E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022CEED11B252A9B00F06F4E /* SWRevealViewController.m */; };
+		022CEED91B252B8300F06F4E /* JCRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 022CEED81B252B8300F06F4E /* JCRBlurView.m */; };
+		022CEEE01B252D6300F06F4E /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022CEEDF1B252D6300F06F4E /* UserInfoViewController.m */; };
+		022CEEE71B252E0700F06F4E /* LeftImageRightTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 022CEEE61B252E0700F06F4E /* LeftImageRightTextButton.m */; };
+		022CEEEF1B2570DD00F06F4E /* InfoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 022CEEEE1B2570DD00F06F4E /* InfoBtn.png */; };
+		022CEEF31B25805C00F06F4E /* RevealBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 022CEEF21B25805C00F06F4E /* RevealBtn.png */; };
+		022CEEF51B25A46E00F06F4E /* UserPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 022CEEF41B25A46E00F06F4E /* UserPortrait.png */; };
 		025316171B24A0DA009F7BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 025316161B24A0DA009F7BE3 /* main.m */; };
 		0253161A1B24A0DA009F7BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 025316191B24A0DA009F7BE3 /* AppDelegate.m */; };
 		0253161D1B24A0DA009F7BE3 /* MoliStudy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0253161B1B24A0DA009F7BE3 /* MoliStudy.xcdatamodeld */; };
@@ -29,6 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022CEED01B252A9B00F06F4E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		022CEED11B252A9B00F06F4E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		022CEED71B252B8300F06F4E /* JCRBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRBlurView.h; sourceTree = "<group>"; };
+		022CEED81B252B8300F06F4E /* JCRBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRBlurView.m; sourceTree = "<group>"; };
+		022CEEDE1B252D6300F06F4E /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		022CEEDF1B252D6300F06F4E /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		022CEEE51B252E0700F06F4E /* LeftImageRightTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftImageRightTextButton.h; sourceTree = "<group>"; };
+		022CEEE61B252E0700F06F4E /* LeftImageRightTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftImageRightTextButton.m; sourceTree = "<group>"; };
+		022CEEEE1B2570DD00F06F4E /* InfoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBtn.png; sourceTree = "<group>"; };
+		022CEEF21B25805C00F06F4E /* RevealBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RevealBtn.png; sourceTree = "<group>"; };
+		022CEEF41B25A46E00F06F4E /* UserPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserPortrait.png; sourceTree = "<group>"; };
 		025316111B24A0DA009F7BE3 /* MoliStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoliStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		025316151B24A0DA009F7BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		025316161B24A0DA009F7BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,9 +83,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022CEECF1B252A9B00F06F4E /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				022CEED01B252A9B00F06F4E /* SWRevealViewController.h */,
+				022CEED11B252A9B00F06F4E /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		022CEED61B252B8300F06F4E /* JCRBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				022CEED71B252B8300F06F4E /* JCRBlurView.h */,
+				022CEED81B252B8300F06F4E /* JCRBlurView.m */,
+			);
+			path = JCRBlurView;
+			sourceTree = "<group>";
+		};
+		022CEEDD1B252D6300F06F4E /* UserInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				022CEEDE1B252D6300F06F4E /* UserInfoViewController.h */,
+				022CEEDF1B252D6300F06F4E /* UserInfoViewController.m */,
+			);
+			path = UserInfoViewController;
+			sourceTree = "<group>";
+		};
+		022CEEE41B252E0700F06F4E /* LeftImageRightTextButton */ = {
+			isa = PBXGroup;
+			children = (
+				022CEEE51B252E0700F06F4E /* LeftImageRightTextButton.h */,
+				022CEEE61B252E0700F06F4E /* LeftImageRightTextButton.m */,
+			);
+			path = LeftImageRightTextButton;
+			sourceTree = "<group>";
+		};
 		025316081B24A0DA009F7BE3 = {
 			isa = PBXGroup;
 			children = (
+				022CEEE41B252E0700F06F4E /* LeftImageRightTextButton */,
+				022CEEDD1B252D6300F06F4E /* UserInfoViewController */,
+				022CEED61B252B8300F06F4E /* JCRBlurView */,
+				022CEECF1B252A9B00F06F4E /* SWRevealViewController */,
 				0253163D1B24A0E9009F7BE3 /* libBusinessLogicLayer.a */,
 				025316131B24A0DA009F7BE3 /* MoliStudy */,
 				025316301B24A0DA009F7BE3 /* MoliStudyTests */,
@@ -93,6 +151,9 @@
 				0253161F1B24A0DA009F7BE3 /* ViewController.m */,
 				025316211B24A0DA009F7BE3 /* Main.storyboard */,
 				025316241B24A0DA009F7BE3 /* Images.xcassets */,
+				022CEEF41B25A46E00F06F4E /* UserPortrait.png */,
+				022CEEF21B25805C00F06F4E /* RevealBtn.png */,
+				022CEEEE1B2570DD00F06F4E /* InfoBtn.png */,
 				025316261B24A0DA009F7BE3 /* LaunchScreen.xib */,
 				0253161B1B24A0DA009F7BE3 /* MoliStudy.xcdatamodeld */,
 				025316141B24A0DA009F7BE3 /* Supporting Files */,
@@ -207,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				025316231B24A0DA009F7BE3 /* Main.storyboard in Resources */,
+				022CEEF31B25805C00F06F4E /* RevealBtn.png in Resources */,
 				025316281B24A0DA009F7BE3 /* LaunchScreen.xib in Resources */,
+				022CEEEF1B2570DD00F06F4E /* InfoBtn.png in Resources */,
+				022CEEF51B25A46E00F06F4E /* UserPortrait.png in Resources */,
 				025316251B24A0DA009F7BE3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +292,12 @@
 			files = (
 				0253161A1B24A0DA009F7BE3 /* AppDelegate.m in Sources */,
 				0253161D1B24A0DA009F7BE3 /* MoliStudy.xcdatamodeld in Sources */,
+				022CEEE71B252E0700F06F4E /* LeftImageRightTextButton.m in Sources */,
+				022CEED21B252A9B00F06F4E /* SWRevealViewController.m in Sources */,
 				025316201B24A0DA009F7BE3 /* ViewController.m in Sources */,
 				025316171B24A0DA009F7BE3 /* main.m in Sources */,
+				022CEEE01B252D6300F06F4E /* UserInfoViewController.m in Sources */,
+				022CEED91B252B8300F06F4E /* JCRBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +504,7 @@
 				025316391B24A0DA009F7BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0253163A1B24A0DA009F7BE3 /* Build configuration list for PBXNativeTarget "MoliStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +513,7 @@
 				0253163C1B24A0DA009F7BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
