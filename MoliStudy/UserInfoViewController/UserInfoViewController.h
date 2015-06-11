@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "LeftImageRightTextButton.h"
+#import "JCRBlurView.h"
+#import "StudyPageViewController.h"
+#import "CalendarPageViewController.h"
+#import "ReportViewController.h"
+#import "StoreViewController.h"
+#import "SetPageViewController.h"
+#import "YanTuViewController.h"
 
-@interface UserInfoViewController : UIViewController
+@interface UserInfoViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic, strong) UILabel * UserName;
 @property (nonatomic, strong) UILabel * coinNum;
@@ -17,12 +24,11 @@
 
 @property (nonatomic, strong) UIImageView *UserImage;
 
-@property (nonatomic, strong) LeftImageRightTextButton *btnFirst;
-@property (nonatomic, strong) LeftImageRightTextButton *btnSecond;
-@property (nonatomic, strong) LeftImageRightTextButton *btnThird;
-@property (nonatomic, strong) LeftImageRightTextButton *btnForth;
 @property (nonatomic, strong) LeftImageRightTextButton *btnSet;
 @property (nonatomic, strong) LeftImageRightTextButton *btnNight;
 @property (nonatomic, strong) LeftImageRightTextButton *btnWay;
+
+@property (nonatomic, strong) UITableView *funcTableView;
+@property (nonatomic, strong) JCRBlurView *blurView;
 
 @end

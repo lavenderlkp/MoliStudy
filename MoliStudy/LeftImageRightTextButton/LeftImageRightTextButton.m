@@ -12,17 +12,18 @@
 
 - (CGRect)contentRectForBounds:(CGRect)bounds
 {
-    return CGRectMake(0, 0, 120, 30);
+    return bounds;
 }
 
 - (CGRect)titleRectForContentRect:(CGRect)contentRect
 {
-    return CGRectMake(40, 0, 80, 30);
+    return CGRectMake(5.5/17.0f * contentRect.size.width, 0, 11.0/17.0f * contentRect.size.width, contentRect.size.height);
 }
 
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
 {
-    return CGRectMake(0, 0, 30, 30);
+    //self.contentMode = UIViewContentModeScaleToFill;
+    return CGRectMake(0, 0, 3.0/17.0f * contentRect.size.width, contentRect.size.height);
 }
 
 @end

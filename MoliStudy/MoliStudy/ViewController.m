@@ -31,6 +31,7 @@
     UIButton *customLeftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     UIImage *leftBtnImage = [UIImage imageNamed:@"RevealBtn"];
     customLeftBtn.frame = CGRectMake(0, 0, leftBtnImage.size.width, leftBtnImage.size.height);
+    customLeftBtn.adjustsImageWhenHighlighted = NO;
     [customLeftBtn setImageEdgeInsets:UIEdgeInsetsMake(2, 2, 2, 2)];
     [customLeftBtn setImage:leftBtnImage forState:UIControlStateNormal];
     [customLeftBtn addTarget:self action:@selector(revealToNextPage) forControlEvents:UIControlEventTouchUpInside];
@@ -298,7 +299,11 @@
 {
     [self.startStudyBtn setTitle:@"开始学习" forState:UIControlStateHighlighted];
     //点击切换页面
-    NSLog(@"sdg");
+    StudyPageViewController *studyView = [[StudyPageViewController alloc] init];
+    studyView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    //studyView.modalPresentationStyle = UIModalPresentationPageSheet;
+    
+    [self presentViewController:studyView animated:YES completion:nil];
 }
 
 - (void) firstInfoBtnPressed

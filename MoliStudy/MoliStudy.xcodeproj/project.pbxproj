@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0224C9381B26CFB90002772C /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C9341B26CFB90002772C /* 0.png */; };
+		0224C9391B26CFB90002772C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C9351B26CFB90002772C /* 1.png */; };
+		0224C93A1B26CFB90002772C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C9361B26CFB90002772C /* 2.png */; };
+		0224C93B1B26CFB90002772C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C9371B26CFB90002772C /* 3.png */; };
+		0224C93F1B26E1D10002772C /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C93C1B26E1D10002772C /* set.png */; };
+		0224C9401B26E1D10002772C /* mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C93D1B26E1D10002772C /* mode.png */; };
+		0224C9411B26E1D10002772C /* way.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C93E1B26E1D10002772C /* way.png */; };
+		0224C94B1B26E85F0002772C /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9441B26E85F0002772C /* AKPickerView.m */; };
+		0224C94C1B26E85F0002772C /* DXPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9471B26E85F0002772C /* DXPopover.m */; };
+		0224C94D1B26E85F0002772C /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C94A1B26E85F0002772C /* RadioButton.m */; };
+		0224C9521B26E8D20002772C /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C94E1B26E8D20002772C /* clock.png */; };
+		0224C9531B26E8D20002772C /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C94F1B26E8D20002772C /* RadioButton-Selected.png */; };
+		0224C9541B26E8D20002772C /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C9501B26E8D20002772C /* RadioButton-Unselected.png */; };
+		0224C9551B26E8D20002772C /* tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224C9511B26E8D20002772C /* tips.png */; };
+		0224C9681B26EA700002772C /* LeftArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9581B26EA700002772C /* LeftArrow.m */; };
+		0224C9691B26EA700002772C /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C95B1B26EA700002772C /* NavigationView.m */; };
+		0224C96A1B26EA700002772C /* PickerLeftArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C95E1B26EA700002772C /* PickerLeftArrow.m */; };
+		0224C96B1B26EA700002772C /* PickerRightArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9611B26EA700002772C /* PickerRightArrow.m */; };
+		0224C96C1B26EA700002772C /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9641B26EA700002772C /* ProgressView.m */; };
+		0224C96D1B26EA700002772C /* TabControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9671B26EA700002772C /* TabControlView.m */; };
+		0224C9741B26EB170002772C /* StudyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9731B26EB170002772C /* StudyPageViewController.m */; };
+		0224C99E1B270B4D0002772C /* CalendarPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C99D1B270B4D0002772C /* CalendarPageViewController.m */; };
+		0224C9A51B2716760002772C /* CalendarNaviRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9A41B2716760002772C /* CalendarNaviRight.m */; };
+		0224C9C21B2742A90002772C /* JTCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9A81B2742A90002772C /* JTCalendar.m */; };
+		0224C9C31B2742A90002772C /* JTCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9AA1B2742A90002772C /* JTCalendarAppearance.m */; };
+		0224C9C41B2742A90002772C /* JTCalendarContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9AC1B2742A90002772C /* JTCalendarContentView.m */; };
+		0224C9C51B2742A90002772C /* JTCalendarDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9AE1B2742A90002772C /* JTCalendarDataCache.m */; };
+		0224C9C61B2742A90002772C /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9B01B2742A90002772C /* JTCalendarDayView.m */; };
+		0224C9C71B2742A90002772C /* JTCalendarMenuMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9B21B2742A90002772C /* JTCalendarMenuMonthView.m */; };
+		0224C9C81B2742A90002772C /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9B41B2742A90002772C /* JTCalendarMenuView.m */; };
+		0224C9C91B2742A90002772C /* JTCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9B61B2742A90002772C /* JTCalendarMonthView.m */; };
+		0224C9CA1B2742A90002772C /* JTCalendarMonthWeekDaysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9B81B2742A90002772C /* JTCalendarMonthWeekDaysView.m */; };
+		0224C9CB1B2742A90002772C /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9BB1B2742A90002772C /* JTCalendarWeekView.m */; };
+		0224C9CC1B2742A90002772C /* JTCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9BD1B2742A90002772C /* JTCircleView.m */; };
+		0224C9CD1B2742A90002772C /* JTLeftArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9BF1B2742A90002772C /* JTLeftArrowView.m */; };
+		0224C9CE1B2742A90002772C /* JTRightArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9C11B2742A90002772C /* JTRightArrowView.m */; };
+		0224C9D51B2748D50002772C /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9D41B2748D50002772C /* ReportViewController.m */; };
+		0224C9DC1B2749EB0002772C /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9DB1B2749EB0002772C /* StoreViewController.m */; };
+		0224C9E31B27D3E60002772C /* SetPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9E21B27D3E60002772C /* SetPageViewController.m */; };
+		0224C9EA1B27D50E0002772C /* YanTuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224C9E91B27D50E0002772C /* YanTuViewController.m */; };
 		022CEED21B252A9B00F06F4E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022CEED11B252A9B00F06F4E /* SWRevealViewController.m */; };
 		022CEED91B252B8300F06F4E /* JCRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 022CEED81B252B8300F06F4E /* JCRBlurView.m */; };
 		022CEEE01B252D6300F06F4E /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022CEEDF1B252D6300F06F4E /* UserInfoViewController.m */; };
@@ -36,6 +76,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0224C9341B26CFB90002772C /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		0224C9351B26CFB90002772C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0224C9361B26CFB90002772C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0224C9371B26CFB90002772C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		0224C93C1B26E1D10002772C /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		0224C93D1B26E1D10002772C /* mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode.png; sourceTree = "<group>"; };
+		0224C93E1B26E1D10002772C /* way.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = way.png; sourceTree = "<group>"; };
+		0224C9431B26E85F0002772C /* AKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
+		0224C9441B26E85F0002772C /* AKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPickerView.m; sourceTree = "<group>"; };
+		0224C9461B26E85F0002772C /* DXPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXPopover.h; sourceTree = "<group>"; };
+		0224C9471B26E85F0002772C /* DXPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXPopover.m; sourceTree = "<group>"; };
+		0224C9491B26E85F0002772C /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		0224C94A1B26E85F0002772C /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		0224C94E1B26E8D20002772C /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		0224C94F1B26E8D20002772C /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Selected.png"; sourceTree = "<group>"; };
+		0224C9501B26E8D20002772C /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Unselected.png"; sourceTree = "<group>"; };
+		0224C9511B26E8D20002772C /* tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tips.png; sourceTree = "<group>"; };
+		0224C9571B26EA700002772C /* LeftArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftArrow.h; sourceTree = "<group>"; };
+		0224C9581B26EA700002772C /* LeftArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftArrow.m; sourceTree = "<group>"; };
+		0224C95A1B26EA700002772C /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
+		0224C95B1B26EA700002772C /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
+		0224C95D1B26EA700002772C /* PickerLeftArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerLeftArrow.h; sourceTree = "<group>"; };
+		0224C95E1B26EA700002772C /* PickerLeftArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerLeftArrow.m; sourceTree = "<group>"; };
+		0224C9601B26EA700002772C /* PickerRightArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerRightArrow.h; sourceTree = "<group>"; };
+		0224C9611B26EA700002772C /* PickerRightArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerRightArrow.m; sourceTree = "<group>"; };
+		0224C9631B26EA700002772C /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		0224C9641B26EA700002772C /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		0224C9661B26EA700002772C /* TabControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabControlView.h; sourceTree = "<group>"; };
+		0224C9671B26EA700002772C /* TabControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabControlView.m; sourceTree = "<group>"; };
+		0224C9721B26EB170002772C /* StudyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyPageViewController.h; sourceTree = "<group>"; };
+		0224C9731B26EB170002772C /* StudyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyPageViewController.m; sourceTree = "<group>"; };
+		0224C99C1B270B4D0002772C /* CalendarPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarPageViewController.h; sourceTree = "<group>"; };
+		0224C99D1B270B4D0002772C /* CalendarPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarPageViewController.m; sourceTree = "<group>"; };
+		0224C9A31B2716760002772C /* CalendarNaviRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarNaviRight.h; sourceTree = "<group>"; };
+		0224C9A41B2716760002772C /* CalendarNaviRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarNaviRight.m; sourceTree = "<group>"; };
+		0224C9A71B2742A90002772C /* JTCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendar.h; sourceTree = "<group>"; };
+		0224C9A81B2742A90002772C /* JTCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendar.m; sourceTree = "<group>"; };
+		0224C9A91B2742A90002772C /* JTCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarAppearance.h; sourceTree = "<group>"; };
+		0224C9AA1B2742A90002772C /* JTCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarAppearance.m; sourceTree = "<group>"; };
+		0224C9AB1B2742A90002772C /* JTCalendarContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarContentView.h; sourceTree = "<group>"; };
+		0224C9AC1B2742A90002772C /* JTCalendarContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarContentView.m; sourceTree = "<group>"; };
+		0224C9AD1B2742A90002772C /* JTCalendarDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDataCache.h; sourceTree = "<group>"; };
+		0224C9AE1B2742A90002772C /* JTCalendarDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDataCache.m; sourceTree = "<group>"; };
+		0224C9AF1B2742A90002772C /* JTCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDayView.h; sourceTree = "<group>"; };
+		0224C9B01B2742A90002772C /* JTCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDayView.m; sourceTree = "<group>"; };
+		0224C9B11B2742A90002772C /* JTCalendarMenuMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMenuMonthView.h; sourceTree = "<group>"; };
+		0224C9B21B2742A90002772C /* JTCalendarMenuMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMenuMonthView.m; sourceTree = "<group>"; };
+		0224C9B31B2742A90002772C /* JTCalendarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMenuView.h; sourceTree = "<group>"; };
+		0224C9B41B2742A90002772C /* JTCalendarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMenuView.m; sourceTree = "<group>"; };
+		0224C9B51B2742A90002772C /* JTCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMonthView.h; sourceTree = "<group>"; };
+		0224C9B61B2742A90002772C /* JTCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMonthView.m; sourceTree = "<group>"; };
+		0224C9B71B2742A90002772C /* JTCalendarMonthWeekDaysView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMonthWeekDaysView.h; sourceTree = "<group>"; };
+		0224C9B81B2742A90002772C /* JTCalendarMonthWeekDaysView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMonthWeekDaysView.m; sourceTree = "<group>"; };
+		0224C9B91B2742A90002772C /* JTCalendarViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarViewDataSource.h; sourceTree = "<group>"; };
+		0224C9BA1B2742A90002772C /* JTCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekView.h; sourceTree = "<group>"; };
+		0224C9BB1B2742A90002772C /* JTCalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekView.m; sourceTree = "<group>"; };
+		0224C9BC1B2742A90002772C /* JTCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCircleView.h; sourceTree = "<group>"; };
+		0224C9BD1B2742A90002772C /* JTCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCircleView.m; sourceTree = "<group>"; };
+		0224C9BE1B2742A90002772C /* JTLeftArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTLeftArrowView.h; sourceTree = "<group>"; };
+		0224C9BF1B2742A90002772C /* JTLeftArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTLeftArrowView.m; sourceTree = "<group>"; };
+		0224C9C01B2742A90002772C /* JTRightArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTRightArrowView.h; sourceTree = "<group>"; };
+		0224C9C11B2742A90002772C /* JTRightArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTRightArrowView.m; sourceTree = "<group>"; };
+		0224C9D31B2748D50002772C /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		0224C9D41B2748D50002772C /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		0224C9DA1B2749EB0002772C /* StoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
+		0224C9DB1B2749EB0002772C /* StoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
+		0224C9E11B27D3E60002772C /* SetPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPageViewController.h; sourceTree = "<group>"; };
+		0224C9E21B27D3E60002772C /* SetPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPageViewController.m; sourceTree = "<group>"; };
+		0224C9E81B27D50E0002772C /* YanTuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YanTuViewController.h; sourceTree = "<group>"; };
+		0224C9E91B27D50E0002772C /* YanTuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YanTuViewController.m; sourceTree = "<group>"; };
 		022CEED01B252A9B00F06F4E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		022CEED11B252A9B00F06F4E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		022CEED71B252B8300F06F4E /* JCRBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRBlurView.h; sourceTree = "<group>"; };
@@ -44,9 +154,9 @@
 		022CEEDF1B252D6300F06F4E /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		022CEEE51B252E0700F06F4E /* LeftImageRightTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftImageRightTextButton.h; sourceTree = "<group>"; };
 		022CEEE61B252E0700F06F4E /* LeftImageRightTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftImageRightTextButton.m; sourceTree = "<group>"; };
-		022CEEEE1B2570DD00F06F4E /* InfoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBtn.png; sourceTree = "<group>"; };
-		022CEEF21B25805C00F06F4E /* RevealBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RevealBtn.png; sourceTree = "<group>"; };
-		022CEEF41B25A46E00F06F4E /* UserPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserPortrait.png; sourceTree = "<group>"; };
+		022CEEEE1B2570DD00F06F4E /* InfoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InfoBtn.png; path = ../InfoBtn.png; sourceTree = "<group>"; };
+		022CEEF21B25805C00F06F4E /* RevealBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RevealBtn.png; path = ../RevealBtn.png; sourceTree = "<group>"; };
+		022CEEF41B25A46E00F06F4E /* UserPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UserPortrait.png; path = ../UserPortrait.png; sourceTree = "<group>"; };
 		025316111B24A0DA009F7BE3 /* MoliStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoliStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		025316151B24A0DA009F7BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		025316161B24A0DA009F7BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +193,205 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0224C9331B26CFB90002772C /* ProImage */ = {
+			isa = PBXGroup;
+			children = (
+				0224C94E1B26E8D20002772C /* clock.png */,
+				0224C94F1B26E8D20002772C /* RadioButton-Selected.png */,
+				0224C9501B26E8D20002772C /* RadioButton-Unselected.png */,
+				0224C9511B26E8D20002772C /* tips.png */,
+				0224C93C1B26E1D10002772C /* set.png */,
+				0224C93D1B26E1D10002772C /* mode.png */,
+				0224C93E1B26E1D10002772C /* way.png */,
+				022CEEEE1B2570DD00F06F4E /* InfoBtn.png */,
+				022CEEF21B25805C00F06F4E /* RevealBtn.png */,
+				022CEEF41B25A46E00F06F4E /* UserPortrait.png */,
+				0224C9341B26CFB90002772C /* 0.png */,
+				0224C9351B26CFB90002772C /* 1.png */,
+				0224C9361B26CFB90002772C /* 2.png */,
+				0224C9371B26CFB90002772C /* 3.png */,
+			);
+			path = ProImage;
+			sourceTree = "<group>";
+		};
+		0224C9421B26E85F0002772C /* AKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9431B26E85F0002772C /* AKPickerView.h */,
+				0224C9441B26E85F0002772C /* AKPickerView.m */,
+			);
+			path = AKPickerView;
+			sourceTree = "<group>";
+		};
+		0224C9451B26E85F0002772C /* DXPopover */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9461B26E85F0002772C /* DXPopover.h */,
+				0224C9471B26E85F0002772C /* DXPopover.m */,
+			);
+			path = DXPopover;
+			sourceTree = "<group>";
+		};
+		0224C9481B26E85F0002772C /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9491B26E85F0002772C /* RadioButton.h */,
+				0224C94A1B26E85F0002772C /* RadioButton.m */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		0224C9561B26EA700002772C /* StudyPageLeftArrow */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9571B26EA700002772C /* LeftArrow.h */,
+				0224C9581B26EA700002772C /* LeftArrow.m */,
+			);
+			path = StudyPageLeftArrow;
+			sourceTree = "<group>";
+		};
+		0224C9591B26EA700002772C /* StudyPageNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				0224C95A1B26EA700002772C /* NavigationView.h */,
+				0224C95B1B26EA700002772C /* NavigationView.m */,
+			);
+			path = StudyPageNavigationView;
+			sourceTree = "<group>";
+		};
+		0224C95C1B26EA700002772C /* StudyPagePickerLeftArrow */ = {
+			isa = PBXGroup;
+			children = (
+				0224C95D1B26EA700002772C /* PickerLeftArrow.h */,
+				0224C95E1B26EA700002772C /* PickerLeftArrow.m */,
+			);
+			path = StudyPagePickerLeftArrow;
+			sourceTree = "<group>";
+		};
+		0224C95F1B26EA700002772C /* StudyPagePickerRightArrow */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9601B26EA700002772C /* PickerRightArrow.h */,
+				0224C9611B26EA700002772C /* PickerRightArrow.m */,
+			);
+			path = StudyPagePickerRightArrow;
+			sourceTree = "<group>";
+		};
+		0224C9621B26EA700002772C /* StudyPageProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9631B26EA700002772C /* ProgressView.h */,
+				0224C9641B26EA700002772C /* ProgressView.m */,
+			);
+			path = StudyPageProgressView;
+			sourceTree = "<group>";
+		};
+		0224C9651B26EA700002772C /* StudyPageTabControlView */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9661B26EA700002772C /* TabControlView.h */,
+				0224C9671B26EA700002772C /* TabControlView.m */,
+			);
+			path = StudyPageTabControlView;
+			sourceTree = "<group>";
+		};
+		0224C9711B26EB170002772C /* StudyPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9721B26EB170002772C /* StudyPageViewController.h */,
+				0224C9731B26EB170002772C /* StudyPageViewController.m */,
+			);
+			path = StudyPageViewController;
+			sourceTree = "<group>";
+		};
+		0224C99B1B270B4D0002772C /* CalendarPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0224C99C1B270B4D0002772C /* CalendarPageViewController.h */,
+				0224C99D1B270B4D0002772C /* CalendarPageViewController.m */,
+			);
+			path = CalendarPageViewController;
+			sourceTree = "<group>";
+		};
+		0224C9A21B2716760002772C /* CalendarNaviRight */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9A31B2716760002772C /* CalendarNaviRight.h */,
+				0224C9A41B2716760002772C /* CalendarNaviRight.m */,
+			);
+			path = CalendarNaviRight;
+			sourceTree = "<group>";
+		};
+		0224C9A61B2742A90002772C /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9A71B2742A90002772C /* JTCalendar.h */,
+				0224C9A81B2742A90002772C /* JTCalendar.m */,
+				0224C9A91B2742A90002772C /* JTCalendarAppearance.h */,
+				0224C9AA1B2742A90002772C /* JTCalendarAppearance.m */,
+				0224C9AB1B2742A90002772C /* JTCalendarContentView.h */,
+				0224C9AC1B2742A90002772C /* JTCalendarContentView.m */,
+				0224C9AD1B2742A90002772C /* JTCalendarDataCache.h */,
+				0224C9AE1B2742A90002772C /* JTCalendarDataCache.m */,
+				0224C9AF1B2742A90002772C /* JTCalendarDayView.h */,
+				0224C9B01B2742A90002772C /* JTCalendarDayView.m */,
+				0224C9B11B2742A90002772C /* JTCalendarMenuMonthView.h */,
+				0224C9B21B2742A90002772C /* JTCalendarMenuMonthView.m */,
+				0224C9B31B2742A90002772C /* JTCalendarMenuView.h */,
+				0224C9B41B2742A90002772C /* JTCalendarMenuView.m */,
+				0224C9B51B2742A90002772C /* JTCalendarMonthView.h */,
+				0224C9B61B2742A90002772C /* JTCalendarMonthView.m */,
+				0224C9B71B2742A90002772C /* JTCalendarMonthWeekDaysView.h */,
+				0224C9B81B2742A90002772C /* JTCalendarMonthWeekDaysView.m */,
+				0224C9B91B2742A90002772C /* JTCalendarViewDataSource.h */,
+				0224C9BA1B2742A90002772C /* JTCalendarWeekView.h */,
+				0224C9BB1B2742A90002772C /* JTCalendarWeekView.m */,
+				0224C9BC1B2742A90002772C /* JTCircleView.h */,
+				0224C9BD1B2742A90002772C /* JTCircleView.m */,
+				0224C9BE1B2742A90002772C /* JTLeftArrowView.h */,
+				0224C9BF1B2742A90002772C /* JTLeftArrowView.m */,
+				0224C9C01B2742A90002772C /* JTRightArrowView.h */,
+				0224C9C11B2742A90002772C /* JTRightArrowView.m */,
+			);
+			path = JTCalendar;
+			sourceTree = "<group>";
+		};
+		0224C9D21B2748D50002772C /* ReportViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9D31B2748D50002772C /* ReportViewController.h */,
+				0224C9D41B2748D50002772C /* ReportViewController.m */,
+			);
+			path = ReportViewController;
+			sourceTree = "<group>";
+		};
+		0224C9D91B2749EB0002772C /* StoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9DA1B2749EB0002772C /* StoreViewController.h */,
+				0224C9DB1B2749EB0002772C /* StoreViewController.m */,
+			);
+			path = StoreViewController;
+			sourceTree = "<group>";
+		};
+		0224C9E01B27D3E60002772C /* SetPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9E11B27D3E60002772C /* SetPageViewController.h */,
+				0224C9E21B27D3E60002772C /* SetPageViewController.m */,
+			);
+			path = SetPageViewController;
+			sourceTree = "<group>";
+		};
+		0224C9E71B27D50E0002772C /* YanTuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0224C9E81B27D50E0002772C /* YanTuViewController.h */,
+				0224C9E91B27D50E0002772C /* YanTuViewController.m */,
+			);
+			path = YanTuViewController;
+			sourceTree = "<group>";
+		};
 		022CEECF1B252A9B00F06F4E /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +431,23 @@
 		025316081B24A0DA009F7BE3 = {
 			isa = PBXGroup;
 			children = (
+				0224C9E71B27D50E0002772C /* YanTuViewController */,
+				0224C9E01B27D3E60002772C /* SetPageViewController */,
+				0224C9D91B2749EB0002772C /* StoreViewController */,
+				0224C9D21B2748D50002772C /* ReportViewController */,
+				0224C9A61B2742A90002772C /* JTCalendar */,
+				0224C9A21B2716760002772C /* CalendarNaviRight */,
+				0224C99B1B270B4D0002772C /* CalendarPageViewController */,
+				0224C9711B26EB170002772C /* StudyPageViewController */,
+				0224C9561B26EA700002772C /* StudyPageLeftArrow */,
+				0224C9591B26EA700002772C /* StudyPageNavigationView */,
+				0224C95C1B26EA700002772C /* StudyPagePickerLeftArrow */,
+				0224C95F1B26EA700002772C /* StudyPagePickerRightArrow */,
+				0224C9621B26EA700002772C /* StudyPageProgressView */,
+				0224C9651B26EA700002772C /* StudyPageTabControlView */,
+				0224C9421B26E85F0002772C /* AKPickerView */,
+				0224C9451B26E85F0002772C /* DXPopover */,
+				0224C9481B26E85F0002772C /* RadioButton */,
 				022CEEE41B252E0700F06F4E /* LeftImageRightTextButton */,
 				022CEEDD1B252D6300F06F4E /* UserInfoViewController */,
 				022CEED61B252B8300F06F4E /* JCRBlurView */,
@@ -145,15 +471,13 @@
 		025316131B24A0DA009F7BE3 /* MoliStudy */ = {
 			isa = PBXGroup;
 			children = (
+				0224C9331B26CFB90002772C /* ProImage */,
 				025316181B24A0DA009F7BE3 /* AppDelegate.h */,
 				025316191B24A0DA009F7BE3 /* AppDelegate.m */,
 				0253161E1B24A0DA009F7BE3 /* ViewController.h */,
 				0253161F1B24A0DA009F7BE3 /* ViewController.m */,
 				025316211B24A0DA009F7BE3 /* Main.storyboard */,
 				025316241B24A0DA009F7BE3 /* Images.xcassets */,
-				022CEEF41B25A46E00F06F4E /* UserPortrait.png */,
-				022CEEF21B25805C00F06F4E /* RevealBtn.png */,
-				022CEEEE1B2570DD00F06F4E /* InfoBtn.png */,
 				025316261B24A0DA009F7BE3 /* LaunchScreen.xib */,
 				0253161B1B24A0DA009F7BE3 /* MoliStudy.xcdatamodeld */,
 				025316141B24A0DA009F7BE3 /* Supporting Files */,
@@ -268,10 +592,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				025316231B24A0DA009F7BE3 /* Main.storyboard in Resources */,
+				0224C9541B26E8D20002772C /* RadioButton-Unselected.png in Resources */,
+				0224C9411B26E1D10002772C /* way.png in Resources */,
 				022CEEF31B25805C00F06F4E /* RevealBtn.png in Resources */,
+				0224C9531B26E8D20002772C /* RadioButton-Selected.png in Resources */,
+				0224C93B1B26CFB90002772C /* 3.png in Resources */,
+				0224C93F1B26E1D10002772C /* set.png in Resources */,
+				0224C93A1B26CFB90002772C /* 2.png in Resources */,
+				0224C9401B26E1D10002772C /* mode.png in Resources */,
 				025316281B24A0DA009F7BE3 /* LaunchScreen.xib in Resources */,
 				022CEEEF1B2570DD00F06F4E /* InfoBtn.png in Resources */,
+				0224C9381B26CFB90002772C /* 0.png in Resources */,
+				0224C9551B26E8D20002772C /* tips.png in Resources */,
 				022CEEF51B25A46E00F06F4E /* UserPortrait.png in Resources */,
+				0224C9391B26CFB90002772C /* 1.png in Resources */,
+				0224C9521B26E8D20002772C /* clock.png in Resources */,
 				025316251B24A0DA009F7BE3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,13 +626,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				0253161A1B24A0DA009F7BE3 /* AppDelegate.m in Sources */,
+				0224C9C91B2742A90002772C /* JTCalendarMonthView.m in Sources */,
+				0224C9E31B27D3E60002772C /* SetPageViewController.m in Sources */,
+				0224C9EA1B27D50E0002772C /* YanTuViewController.m in Sources */,
 				0253161D1B24A0DA009F7BE3 /* MoliStudy.xcdatamodeld in Sources */,
+				0224C9CE1B2742A90002772C /* JTRightArrowView.m in Sources */,
+				0224C9DC1B2749EB0002772C /* StoreViewController.m in Sources */,
+				0224C94D1B26E85F0002772C /* RadioButton.m in Sources */,
+				0224C9741B26EB170002772C /* StudyPageViewController.m in Sources */,
 				022CEEE71B252E0700F06F4E /* LeftImageRightTextButton.m in Sources */,
+				0224C9C21B2742A90002772C /* JTCalendar.m in Sources */,
+				0224C9681B26EA700002772C /* LeftArrow.m in Sources */,
+				0224C96B1B26EA700002772C /* PickerRightArrow.m in Sources */,
 				022CEED21B252A9B00F06F4E /* SWRevealViewController.m in Sources */,
+				0224C9CB1B2742A90002772C /* JTCalendarWeekView.m in Sources */,
+				0224C9C41B2742A90002772C /* JTCalendarContentView.m in Sources */,
+				0224C9C61B2742A90002772C /* JTCalendarDayView.m in Sources */,
 				025316201B24A0DA009F7BE3 /* ViewController.m in Sources */,
+				0224C9691B26EA700002772C /* NavigationView.m in Sources */,
+				0224C9C81B2742A90002772C /* JTCalendarMenuView.m in Sources */,
+				0224C96C1B26EA700002772C /* ProgressView.m in Sources */,
 				025316171B24A0DA009F7BE3 /* main.m in Sources */,
+				0224C9C51B2742A90002772C /* JTCalendarDataCache.m in Sources */,
 				022CEEE01B252D6300F06F4E /* UserInfoViewController.m in Sources */,
+				0224C9CA1B2742A90002772C /* JTCalendarMonthWeekDaysView.m in Sources */,
+				0224C94C1B26E85F0002772C /* DXPopover.m in Sources */,
+				0224C9C71B2742A90002772C /* JTCalendarMenuMonthView.m in Sources */,
+				0224C9A51B2716760002772C /* CalendarNaviRight.m in Sources */,
+				0224C96D1B26EA700002772C /* TabControlView.m in Sources */,
+				0224C9CC1B2742A90002772C /* JTCircleView.m in Sources */,
+				0224C99E1B270B4D0002772C /* CalendarPageViewController.m in Sources */,
+				0224C9CD1B2742A90002772C /* JTLeftArrowView.m in Sources */,
+				0224C94B1B26E85F0002772C /* AKPickerView.m in Sources */,
+				0224C96A1B26EA700002772C /* PickerLeftArrow.m in Sources */,
 				022CEED91B252B8300F06F4E /* JCRBlurView.m in Sources */,
+				0224C9D51B2748D50002772C /* ReportViewController.m in Sources */,
+				0224C9C31B2742A90002772C /* JTCalendarAppearance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

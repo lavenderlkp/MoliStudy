@@ -11,6 +11,7 @@
 #import "PersistenceLayer.h"
 #import "SWRevealViewController.h"
 #import "JCRBlurView.h"
+#import "StudyPageViewController.h"
 
 @interface ViewController : UIViewController
 
